@@ -38,7 +38,7 @@ while True:
     # Get the current time in the 24-hour format
     current_time = time.localtime()
     
-    if current_time.tm_hour == 22 and current_time.tm_min == 00:
+    if current_time.tm_hour == 21 and current_time.tm_min == 45:
         main_function()
         
         time.sleep(60)
